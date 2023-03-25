@@ -10,7 +10,7 @@ use std::io;
 
 const LIM: f64 = 0.000000000001;
 const INTERVALO: f64 = 0.5 - LIM;
-const EPSILON: f64 = 0.0000000000000001;
+const EPSILON: f64 = 0.0000000000000001; //Aproximacion del epsilon de mi maquina
 
 fn main() {
     let mut linf:String = String::new();
